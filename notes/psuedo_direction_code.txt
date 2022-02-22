@@ -1,0 +1,10 @@
+
+for(i=0; i < 4; i++):
+    rr = r + dr[i]
+    cc = c + dc[i]
+    //skip invalid cells and assume R and C for the number of rows and columns
+
+    if rr < 0 or cc < 0: continue
+    if rr>= R or cc >= C: continue
+
+    //(rr, cc) is a neighboring cell of (r,c)
