@@ -7,5 +7,5 @@ Given the following graphs, create their adjacency matrices and adjacency lists:
 www/graph_1.jpg
 
 ## Graph 2:
-![unbalanced tree](../www/graph_2.jpg)
+![unbalanced tree](../Assignments/www/graph_2.jpg)
 
