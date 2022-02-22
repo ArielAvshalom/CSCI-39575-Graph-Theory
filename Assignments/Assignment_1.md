@@ -16,13 +16,19 @@ You are given a bunch of files and folders. **Draw a graph of the files and fold
 
 Example:
 
+```
+
 [...
     node: my_folder     | edges: 1,2,3  |flag: d
     node: my_file.txt   | edges:        |flag: f
 ...]
+
+```
 There are two nodes listed above where one is a directory and another is a file.
 
 Files and directories:
+
+```
 
 /bin/login.sh
 /bin/logout.sh
@@ -32,6 +38,8 @@ Files and directories:
 /history/news/2-18-22.md
 /assignments/assignment1.txt
 /assignments/solutions.all
+
+```
 
 ## For the graphs above answer these questions:
 
