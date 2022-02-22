@@ -43,7 +43,8 @@ Files and directories:
 
 ## For the graphs above answer these questions:
 
-Is the graph a tree? why or why not (if it is, prove why, if it isn't give a proof by contradiction)?
+### Is the graph a tree? why or why not (if it is, prove why, if it isn't give a proof by contradiction)?
 
+### The chromatic number of a graph is the minimal number of colours needed to colour the vertices in such a way that no two adjacent vertices have the same colour.
 
-
+What is the chromatic number of the graphs above? Is there a reason why the chromatic number might be the same or different across the different graphs (ie, if the chromatic number is the same for two of the graphs above, might there be a reason why)?
