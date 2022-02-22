@@ -1,4 +1,4 @@
-# Part 1 : turning graphs into adjacency lists and matrices
+# Part 1 : turning graphs into adjacency lists and matrices (6 points)
 
 Given the following graphs, create their adjacency matrices and adjacency lists:
 
@@ -41,7 +41,7 @@ Files and directories:
 
 ```
 
-## For the graphs above answer these questions:
+# Part 2: For the graphs above answer these questions (9 points):
 
 ### 1: Is the graph a tree? why or why not (if it is, prove why, if it isn't give a proof by contradiction)?
 
@@ -55,9 +55,10 @@ In other words, remove the current edges of the graph and add all nonexisting ed
 
  Give an adjacency list or matrix representation of the above graphs.
 
-## The following question is not related to the graphs above
+## The following question is not related to the graphs above (5 points): 
 
 4: 
 - A: The graphs above are considered "sparse" meaning that the number of edges that exist are much fewer than the total possible number of edges. As a result, the complement of the above graphs are dense. Try to do your own research and list three real world graph applications which are dense and three real world graph applications which are sparse.
+
 - B: Can you think of any situations (at least 2 situations) when it might make sense to store the complement of a graph or to use the complement of a graph in an algorithm? 
 
