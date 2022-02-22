@@ -57,7 +57,7 @@ In other words, remove the current edges of the graph and add all nonexisting ed
 
 ## The following question is not related to the graphs above (5 points): 
 
-4: 
+### 4: 
 - A: The graphs above are considered "sparse" meaning that the number of edges that exist are much fewer than the total possible number of edges. As a result, the complement of the above graphs are dense. Try to do your own research and list three real world graph applications which are dense and three real world graph applications which are sparse.
 
 - B: Can you think of any situations (at least 2 situations) when it might make sense to store the complement of a graph or to use the complement of a graph in an algorithm? 
