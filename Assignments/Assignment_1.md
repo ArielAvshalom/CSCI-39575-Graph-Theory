@@ -24,7 +24,7 @@ Example:
 ...]
 
 ```
-There are two nodes listed above where one is a directory and another is a file.
+There are two nodes listed above where one is a directory and another is a file. You can assume that all files have a .ext extension blurb at the end of the file name. 
 
 Files and directories:
 
@@ -43,8 +43,21 @@ Files and directories:
 
 ## For the graphs above answer these questions:
 
-### Is the graph a tree? why or why not (if it is, prove why, if it isn't give a proof by contradiction)?
+### 1: Is the graph a tree? why or why not (if it is, prove why, if it isn't give a proof by contradiction)?
 
-### The chromatic number of a graph is the minimal number of colours needed to colour the vertices in such a way that no two adjacent vertices have the same colour.
+### 2: The chromatic number of a graph is the minimal number of colours needed to colour the vertices in such a way that no two adjacent vertices have the same colour.
 
 What is the chromatic number of the graphs above? Is there a reason why the chromatic number might be the same or different across the different graphs (ie, if the chromatic number is the same for two of the graphs above, might there be a reason why)?
+
+### 3: The complement or inverse of a graph G is a graph H on the same vertices such that two distinct vertices of H are adjacent if and only if they are not adjacent in G.
+
+In other words, remove the current edges of the graph and add all nonexisting edges to the graph. If you look at an adjacency matrix, it's sort of like flipping all of the bits.
+
+A: What is the complement of the above graphs?
+
+
+## The following questions are not related to the graphs above
+
+4: 
+- A: The graphs above are considered "sparse" meaning that the number of edges that exist are much fewer than the total possible number of edges. As a result, the complement of the above graphs are dense. Try to do your own research and list three real world graph applications which are dense and three real world graph applications which are sparse.
+- B: Can you think of any situations (at least 2 situations) when it might make sense to store the complement of a graph or to use the complement of a graph in an algorithm? 
