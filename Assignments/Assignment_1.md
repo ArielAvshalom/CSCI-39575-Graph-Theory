@@ -12,7 +12,16 @@ If the graphs below are not visible, switch to the parent directory, go to the d
 
 ## Graph 3: random directory logic
 
-You are given a bunch of files and folders. Draw a graph of the files and folders, and also a modified adjacency matrix **or** list (note that for graph three you only need to supply one of these). Here 
+You are given a bunch of files and folders. Draw a graph of the files and folders, and also a modified adjacency matrix **or** list (note that for graph three you only need to supply one of these). The modification here is that there is an additional flag for each node. If the node is a directory, add a d flag and if it is a file add and f flag
+
+Example:
+
+[...
+    node: my_folder     | edges: 1,2,3  |flag: d
+    node: my_file.txt   | edges:        |flag: f
+...]
+There are two nodes listed above where one is a directory and another is a file.
+
 
 ## For the graphs above answer these questions:
 
