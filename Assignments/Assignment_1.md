@@ -3,9 +3,9 @@
 Given the following graphs, create their adjacency matrices and adjacency lists:
 
 ## Graph 1:
-![kite](./www/graph_1.jpg)
+![kite](../www/graph_1.jpg)
 www/graph_1.jpg
 
 ## Graph 2:
-![unbalanced tree](./www/graph_2.jpg)
+![unbalanced tree](../www/graph_2.jpg)
 
