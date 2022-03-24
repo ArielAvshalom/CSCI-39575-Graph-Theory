@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Mar 24 18:27:12 2022
+
+@author: arielavshalom
+"""
+from queue import PriorityQueue
+
+test_queue = PriorityQueue()
+
+print(test_queue.empty())
+
+test_queue.put(30)
+test_queue.put(15)
+test_queue.put(45)
+test_queue.put(2)
+test_queue.put(3)
+test_queue.put(23)
+
+print(test_queue.get())
+
+
+
+
